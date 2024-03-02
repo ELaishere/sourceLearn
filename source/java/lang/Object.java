@@ -34,6 +34,7 @@ package java.lang;
  * @see     java.lang.Class
  * @since   JDK1.0
  */
+//native关键字表示该方法调用本地库完成
 public class Object {
 
     private static native void registerNatives();
